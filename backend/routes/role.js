@@ -1,5 +1,6 @@
 import express from "express";
 import role from "../controllers/role.js";
+<<<<<<< HEAD
 import auth from "../middlewares/auth.js";
 import admin from "../middlewares/admin.js";
 const router = express.Router();
@@ -11,3 +12,12 @@ router.put("/updateRole", auth, admin, role.updateRole);
 router.delete("/deleteRole/:_id", auth, admin, role.deleteRole);
 
 export default router;
+=======
+
+const router = express.Router();
+
+//http://localhost:3001/api/role/registerRole
+router.post("/registerRole", role.registerRole);
+
+export default router;
+>>>>>>> b9e88176a87b08a384bf716a96f20af055ef8c85
