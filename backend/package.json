@@ -7,11 +7,7 @@
   "scripts": {
     "start": "nodemon index.js"
   },
-<<<<<<< HEAD
   "author": "Andres Sanchez",
-=======
-  "author": "BorisJr",
->>>>>>> b9e88176a87b08a384bf716a96f20af055ef8c85
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
